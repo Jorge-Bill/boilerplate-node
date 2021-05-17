@@ -9,6 +9,7 @@ dist/
 server/files/
 .vscode/
 /package-lock.json
+/yarn-lock.json
 # Compiled Java class files
 *.class
 

@@ -21,6 +21,7 @@ The structure is simple
 - src
     - controllers
     - services
+    - utils
     - routes (file)
     - app (file)
 
@@ -35,7 +36,9 @@ controllers files, that manager the application.
 ### services
 
 Service files that call external hosts.
+### utils
 
+file with generic functions to be used on all project.
 ### routes
 
 app route file.
