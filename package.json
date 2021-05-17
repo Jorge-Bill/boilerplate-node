@@ -1,0 +1,44 @@
+{
+  "name": "boilerplate-node",
+  "description": "boilerplate node",
+  "version": "1.0.1",
+  "license": "MIT",
+  "author": "Jorge Mendes",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz",
+    "generate": "yarn plop --plopfile generators/plopfile.js"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "@babel/node": "^7.5.5",
+    "axios": "^0.21.1",
+    "cors": "2.8.5",
+    "dotenv": "8.0.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.13.0",
+    "@babel/preset-env": "^7.5.5",
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.2.0",
+    "husky": "^4.3.0",
+    "nodemon": "^2.0.7",
+    "plop": "^2.7.4"
+  }
+}
