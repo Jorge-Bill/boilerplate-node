@@ -18,6 +18,8 @@
 <a href="https://www.facebook.com/jorgebill.silva"><img src="https://img.shields.io/badge/-facebook-1877F2?style=flat-square&logo=Facebook&logoColor=white"/></a>
 </p>
 
+👨🏻‍  You can know my work on my blog  <a href="https://www.jorgemendes.com.br"> jorgemendes.com.br </a>
+
 ## 🚀 What's inside?
 
 ## Configuration
