@@ -24,7 +24,9 @@
 
 ## Configuration
 
-This project is build with, nodemon, babel, .env, and express.
+This project is build with, nodemon, babel, .env, axios, and express.
+I added commitizen + husky to use Github default commit methods
+And plop to generate new Controllers.
 
 ## Scripts
 
