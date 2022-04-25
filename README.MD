@@ -1,13 +1,11 @@
 <p align="center">
   <a href="https://jorgemendes.com.br/">
-    <img src="https://raw.githubusercontent.com/Jorge-Bill/blog/master/src/images/jorge_banner.png">
+    <img src="https://github.com/Jorge-Bill/blog/blob/master/src/images/jorge_banner.png?raw=true">
   </a>
 </p>
 <h1 align="center">
   This project is made to be a simple node api boilerplate.
 </h1>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1132fe74-5ceb-46e3-b6b8-9e6c8bd6372f/deploy-status)](https://app.netlify.com/sites/jorge-mendes-blog/deploys)
 
 <h3> 🎯 &nbsp; Know Me </h3>
 
